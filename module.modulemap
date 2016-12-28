@@ -1,0 +1,6 @@
+module CGLEW [system] {
+  header "/usr/include/GL/glew.h"
+  link "GLEW"
+  link "GL"
+  export *
+}
